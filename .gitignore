@@ -178,7 +178,7 @@ cython_debug/
 
 ## cannot git the actual migration files in migrations folder
 ## since the files alter separate databases
-**/migrations/0*.py
+**/migrations/*.py
 ## must include back __init__.py
 !**/migrations/__init__.py
 
