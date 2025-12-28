@@ -176,7 +176,9 @@ cython_debug/
 ## manually add the following line
 .vscode
 
-## cannot git migrations folder
+## cannot git the actual migration files in migrations folder
 ## since the files alter separate databases
-migrations
+**/migrations/0*.py
+## must include back __init__.py
+!**/migrations/__init__.py
 
