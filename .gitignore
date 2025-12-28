@@ -176,3 +176,7 @@ cython_debug/
 ## manually add the following line
 .vscode
 
+## cannot git migrations folder
+## since the files alter separate databases
+migrations
+
