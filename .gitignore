@@ -176,6 +176,7 @@ cython_debug/
 ## manually add the following line
 .vscode
 
+### for Django projects
 ## cannot git the actual migration files in migrations folder
 ## since the files alter separate databases
 **/migrations/*.py
