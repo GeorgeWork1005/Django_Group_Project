@@ -173,7 +173,11 @@ cython_debug/
 
 # End of https://www.toptal.com/developers/gitignore/api/django
 
+## add .git for visual cue in vscode
+.git
+
 ## manually add the following line
+## for vscode settings can be different in different computers
 .vscode
 
 ### for Django projects
